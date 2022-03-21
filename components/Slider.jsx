@@ -55,6 +55,7 @@ function Slider({
             ticketId={selectedTicket}
             setTicketId={setSelectedTicket}
             moveBack={handleSelect}
+            selectedIndex={index}
 
           />
         </Carousel.Item>

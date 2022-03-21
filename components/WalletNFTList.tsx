@@ -180,7 +180,7 @@ function  NFT({record, isLinked,selected,handleSelect}){
     </div>)
 }
 
-function WalletNFTList({library,networks,dispatch,state,connectWallet,ticketId,setTicketId, moveBack}){
+function WalletNFTList({library,networks,dispatch,state,connectWallet,ticketId,setTicketId, moveBack,selectedIndex}){
     //console.log("----ticketId---- in walletlist",ticketId)
     const [nfts, setNfts] = useState([])
     const [selectedNFT, setSelectedNFT] = useState({token_id:null,token_address:null});
@@ -201,7 +201,7 @@ function WalletNFTList({library,networks,dispatch,state,connectWallet,ticketId,s
     const Web3Api = useMoralisWeb3Api();
      useEffect(()=>{
         handleNFTList({library,networks,state,connectWallet, Web3Api,nfts,setNfts})
-    },[state,library])
+    },[selectedIndex,library])
 
     return(
         <div className="slider_inner">
