@@ -1,0 +1,54 @@
+.account {
+  display: block;
+}
+.account .MetaMask{
+  text-align: right;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.info .walletBtn {
+  padding: 4px 8px;
+}
+.walletBtn .nftheading{
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  }
+  .walletBtn .addressText{
+    font-family: 'Rajdhani';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27.11px;
+    line-height: 35px;
+    color: #E596FF;
+  }
+.connectStatus {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 10px;
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 19px;
+}
+.connectStatus .circle {
+  width: 6px;
+  height: 6px;
+  background: linear-gradient(90deg, #4F5BF7 6.08%, #9A54F7 54.69%, #D64EF7 94.13%), #D64EF7;
+  margin-right: 4px;
+  border-radius: 50%;
+}
+.info .wallet{
+  text-align: right;
+}
+@media all and (max-width: 767px) {
+}

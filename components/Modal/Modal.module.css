@@ -1,0 +1,344 @@
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: calc(var(--z-top) + 1);
+  background-color: var(--color-white-04);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 568px;
+  position: relative;
+  background: linear-gradient(180deg, #3C11B0 0%, #230C56 100%), linear-gradient(0deg, #6CE947, #6CE947);
+  border-radius: 8px;
+  padding: 64px 38px;
+  border: 1px solid #ffffff;
+}
+
+.show {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+
+.loading {
+  margin-top: 0;
+}
+
+.pending {
+  position: relative;
+  z-index: 1;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.cancel{
+
+}
+.buyForm {
+  width: 100%;
+}
+.mintWrap {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+
+.mintForm {
+  flex: 1;
+  padding-right: 67px;
+}
+.mintDescriptionWrap {
+  flex: 1;
+}
+.mintBtnWrap .openseaWrap {
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.mintBtnWrap .openseaWrap a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.mintDescriptionWrap .openseaWrap a {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 6px;
+}
+@media screen and (max-width: 1400px) {
+  .mintWrap {
+    flex-direction: column;
+  }
+  .mintForm {
+    padding-right: 0px;
+  }
+}
+.mintForm .brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #3C11B0 0%, #230C56 100%), linear-gradient(0deg, #6CE947, #6CE947);
+  border: 3px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 13.3321px;
+}
+.mintForm .brand {
+  padding: 108px 0;
+}
+.mintForm .brand img {
+  height: 50px;
+}
+.mintDescriptionWrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mintDescriptionWrap .mintDescription p {
+  color: #CBCBCB;
+  font-size: 21px;
+  font-weight: 500;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 30px;
+}
+.mintDescriptionWrap .mintDescription p:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+.mintDescriptionWrap img {
+  margin-left: 39px;
+}
+
+.mintBtnWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.mintBtnWrap button {
+  width: 140px;
+  height: 56px;
+  background-color: transparent;
+  border: 1px solid rgba(79, 91, 247, 1);
+  border-radius: 13px;
+  font-family: 'Rajdhani';
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: 0.06em;
+}
+.mintBtnWrap button:first-child {
+  margin-right: 12px;
+}
+.mintBtnWrap button img {
+  width: 20px;
+  margin-left: 5px;
+  float: left;
+}
+.freeMintWrap {
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid rgba(79, 91, 247, 1);
+  border-radius: 13px;
+  padding: 30px 30px;
+  margin-top: 24px;
+}
+.freeMintWrap .codeInputWrapper input {
+  width: 100%;
+}
+.freeMintWrap .inputWrapper:not(:last-child) {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.freeMintWrap label {
+  font-weight: 600;
+  font-size: 20px;
+  color: white;
+  margin-right: 8px;
+  font-family: 'Rajdhani';
+}
+.freeMintWrap input {
+  background-color: transparent;
+  border: 1px solid rgba(79, 91, 247, 1);
+  outline: none;
+  padding: 4px 20px;
+  border-radius: 13px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  width: 100%;
+}
+.freeMintWrap button {
+  width: 100%;
+  /* height: 28px; */
+  background: linear-gradient(90deg, #4F5BF7 0%, #D64EF7 100%);
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  font-family: 'Rajdhani';
+}
+.description1 {
+  max-width: 622px;
+  font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.progressBar {
+  margin-top: 44px;
+}
+
+.progressBar .progressText {
+font-family: 'Rajdhani';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+color: #ffffff;
+  margin-top: 55px;
+}
+
+.transactionNote {
+  margin-top: 30px;
+}
+
+.transactionNote .title {
+  color: #6CE947;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 24px;
+  width: 85%;
+}
+
+.transactionNote .description {
+  color: #CBCBCB;
+  font-family: 'Avenir';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.emailModal .wrapper {
+  max-width: 470px;
+  background: linear-gradient(180deg, #3C11B0 0%, #230C56 100%);
+  border: 1px solid #FFFFFF;
+  padding: 0px;
+  border-radius: 4px;
+}
+
+.emailConfirmWrap {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #3C11B0 0%, #230C56 100%);
+  box-sizing: border-box;
+  padding: 40px 40px;
+  border-radius: 4px;
+}
+.emailConfirmWrap .cancel{
+    background-color: transparent;
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 0px;
+    margin-top: 25px;
+    border-image-source: linear-gradient(90deg, #4F5BF7, #9A54F7, #D64EF7);
+    border-image-slice: 1;
+    width: calc(50% - 5px);
+    margin-right: 10px;
+}
+.emailConfirmWrap .cancel:hover{
+  background: linear-gradient(90deg, #4F5BF7, #9A54F7, #D64EF7);
+}
+.emailConfirmWrap .conform{
+  background-color: transparent;
+    font-family: 'Rajdhani', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    border: 1px solid;
+    padding: 10px 15px;
+    border-radius: 0px;
+    margin-top: 25px;
+    border-image-source: linear-gradient(90deg, #4F5BF7, #9A54F7, #D64EF7);
+    border-image-slice: 1;
+    width: calc(50% - 5px);
+}
+.emailConfirmWrap .conform:hover{
+    background: linear-gradient(90deg, #4F5BF7, #9A54F7, #D64EF7);
+  }
+.emailConfirmWrap .modulpara{
+      color: #ffffff;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+}
+.emailConfirmWrap label {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+.emailConfirmWrap .confirmBtnWrap {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.emailConfirmWrap .confirmBtnWrap input {
+  width: 128px;
+  background-color: white;
+  border-radius: 13px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #7358F8;
+  outline: none;
+}
+
+@media screen and (max-width:1024px) {
+  .mintDescriptionWrap .mintDescription {
+  margin-top: 35px;
+}
+}
+@media screen and (max-width:380px) {
+  .mintBtnWrap button {
+  height: 50px;
+  font-size: 12px;
+}
+}

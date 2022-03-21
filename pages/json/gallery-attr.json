@@ -1,0 +1,212 @@
+{
+    "Species": {
+        "Common": [
+            "Aquatic Red",
+            "Aquatic Green",
+            "Aquatic Blue",
+            "Devil Red",
+            "Devil Green",
+            "Devil Blue",
+            "Humanoid Red",
+            "Humanoid Green",
+            "Humanoid Blue",
+            "Ogre Red",
+            "Ogre Green",
+            "Ogre Blue",
+            "Imp Red",
+            "Imp Blue",
+            "Imp Green"
+        ],
+        "Uncommon": [
+            "Aquatic Orange",
+            "Aquatic Indigo",
+            "Devil Orange",
+            "Devil Indigo",
+            "Humanoid Orange",
+            "Humanoid Indigo",
+            "Ogre Orange",
+            "Ogre Indigo",
+            "Imp Orange",
+            "Imp Indigo"
+        ],
+        "Rare": [
+            "Aquatic Pink",
+            "Aquatic Violet",
+            "Devil Pink",
+            "Devil Violet",
+            "Humanoid Pink",
+            "Humanoid Violet",
+            "Ogre Pink",
+            "Ogre Violet",
+            "Imp Pink",
+            "Imp Violet"
+        ],
+        "Mythic": [
+            "Aquatic Zombie",
+            "Devil Zombie",
+            "Humanoid Zombie",
+            "Ogre Zombie",
+            "Imp Zombie"
+        ]
+    },
+    "Head": {
+        "Common": [
+            "Antlers",
+            "Single Horn",
+            "Single Horn White",
+            "Small Horns",
+            "Fire Red",
+            "Fire Blue",
+            "Bull Horns",
+            "Black Horns",
+            "Long Horns",
+            "Demon Horns",
+            "Mohawk",
+            "Spines"
+        ],
+        "Uncommon": [
+            "Flower",
+            "Baseball Cap",
+            "Fedora",
+            "Cat Ears",
+            "Skull",
+            "Pirate Hat",
+            "Bucket Hat"
+        ],
+        "Rare": [
+            "Halo",
+            "Necromancer Hood",
+            "Mad Scientist",
+            "Wizard Hat",
+            "Top Hat",
+            "Steam Punk Hat"
+        ],
+        "Mythic": [
+            "Space Helmet",
+            "King Crown",
+            "WSB Hair"
+        ],
+        "Promo": [
+            "Melon Helmet"
+        ]
+    },
+    "Clothes": {
+        "Common": [
+            "Track Suit Black",
+            "Track Suit Green",
+            "Track Suit Red",
+            "Track Suit Yellow",
+            "Track Suit Blue",
+            "T Shirt Black",
+            "T Shirt Red",
+            "T Shirt Yellow",
+            "T Shirt Blue",
+            "T Shirt Green",
+            "V Neck Black",
+            "V Neck Red",
+            "V Neck Yellow",
+            "V Neck Green",
+            "V Neck Blue",
+            "Basketball Jersey Red",
+            "Basketball Jersey Blue",
+            "Basketball Jersey Green",
+            "Basketball Jersey Yellow",
+            "Football Jersey Red",
+            "Football Jersey Blue",
+            "Football Jersey Green",
+            "Football Jersey Yellow",
+            "Hoodie Black"
+        ],
+        "Uncommon": [
+            "Suit Black Tie",
+            "Suspenders Black",
+            "Suspenders Red",
+            "Collared White",
+            "Collared Black",
+            "Fancy Dress Black",
+            "Fancy Dress Red",
+            "Polkadot Dress Black",
+            "Polkadot Dress Red",
+            "Vest Black",
+            "Hawaiian Blue",
+            "Hawaiian Red",
+            "Mesh Shirt"
+        ],
+        "Rare": [
+            "Angel Wings",
+            "Necromancer Shawl",
+            "Labcoat",
+            "Wizard Robe",
+            "Tuxedo",
+            "Steam Punk"
+        ],
+        "Mythic": [
+            "Space Suit",
+            "King Robe",
+            "WSB Suit"
+        ],
+        "Promo": [
+            "T Shirt Melon"
+        ]
+    },
+    "Eyes": {
+        "Common": [
+            "Simple",
+            "Simple Angry",
+            "Bead",
+            "Bead Angry",
+            "Big",
+            "Big Angry"
+        ],
+        "Uncommon": [
+            "Cyclops",
+            "Sleeping",
+            "High",
+            "Sad"
+        ],
+        "Rare": [
+            "Laser",
+            "Glasses",
+            "Eyepatch",
+            "Round Sunglasses"
+        ],
+        "Mythic": [
+            "Cyclops Laser",
+            "WSB Sunglasses"
+        ]
+    },
+    "Mouth": {
+        "Common": [
+            "Mischievous",
+            "Open",
+            "Angry",
+            "Sad"
+        ],
+        "Uncommon": [
+            "Dumb",
+            "Tongue",
+            "Sharp"
+        ],
+        "Rare": [
+            "Cat",
+            "Burp"
+        ],
+        "Mythic": [
+            "Cool"
+        ]
+    },
+    "BGs": {
+        "Common": [
+            "Bar"
+        ],
+        "Uncommon": [
+            "Dance Floor"
+        ],
+        "Rare": [
+            "Bathroom"
+        ],
+        "Mythic": [
+            "VIP"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+/*
+.content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: 1;
+  line-height: 1.5;
+  margin: auto;
+}
+
+.buyWrapper {
+  width: 100%;
+  padding: 0 42px 24px 72px;
+}
+
+@media screen and (max-width: 1400px) {
+  .section1 {
+    padding: 24px;
+  }
+}
+*/
