@@ -1,9 +1,9 @@
 import React, { useReducer, useState } from 'react'
-import { Slider } from "../components/Slider";
+import { Slider } from "components/Slider";
 import Account from 'components/Account/Account'
 import { MoralisProvider } from "react-moralis";
 
-const Page1 = ({library,state,loading,dispatch,connectWallet, children, networks, isLive}) => {
+export default function Page({library,state,loading,dispatch,connectWallet, children, networks, isLive}) {
   return (
     <div className="section_first">
       <div className="container-fluid h-100">
@@ -73,4 +73,3 @@ const Page1 = ({library,state,loading,dispatch,connectWallet, children, networks
   );
 };
 
-export default Page1;

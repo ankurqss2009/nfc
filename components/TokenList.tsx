@@ -1,7 +1,7 @@
 import {Carousel} from "react-bootstrap";
 import React,{useEffect,useState} from "react";
 import {toast} from "react-toastify";
-import NoRecordFound from '../components/NoRecordFound';
+import NoRecordFound from 'components/NoRecordFound';
 
 
 const handleTokenList = async({library,networks,state,connectWallet, setTickets}) => {

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Carousel } from "react-bootstrap";
-import TokenList from "../components/TokenList";
+import TokenList from "components/TokenList";
 import WalletNFTList from "./WalletNFTList";
 
 function Slider({

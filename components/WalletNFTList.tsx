@@ -3,7 +3,7 @@ import React,{useEffect,useState} from "react";
 import { useMoralis,useMoralisWeb3Api } from "react-moralis";
 import {toast} from "react-toastify";
 
-import NoRecordFound from '../components/NoRecordFound';
+import NoRecordFound from 'components/NoRecordFound';
 import LinkConfirmModal from "./Modal/LinkConfirmModal";
 
 const handleTransaction =

@@ -13,7 +13,7 @@ import CountTimeDown from 'components/CountTimeDown/CountTimeDown'
 import { addresses, ZERO } from 'utils/constants'
 import { reducer, initState } from './store'
 import styles from './Layout.module.css'
-import Page from '../pages/Page1'
+import Page from 'components/Page'
 
 
 const FETCH_TIME = 2
