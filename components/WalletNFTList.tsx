@@ -5,6 +5,7 @@ import {toast} from "react-toastify";
 
 import NoRecordFound from 'components/NoRecordFound';
 import LinkConfirmModal from "./Modal/LinkConfirmModal";
+import  {addresses} from 'utils/constants';
 
 const handleTransaction =
     (type, dispatch, ...args) =>
@@ -96,19 +97,16 @@ const handleNFTList = async({library,networks,state,connectWallet,Web3Api, nfts,
         }
 
         const attachNftImage = async(list)=>{
+            const contract_adr =  addresses[process.env.APP_ENV === 'dev' ? 4:1].Advisor
             let response = [];
-            /*list.result.forEach(async(nft, index)=>{
-                console.log("--index---",index)
-                let res = await loadNftImage(nft);
-                console.log("----res----",res)
-                let  obj = Object.assign({},{...nft},{image:res})
-                response.push(obj)
-            });*/
             for (const nft of list.result) {
-                let res = await loadNftImage(nft);
-                let  obj = Object.assign({},{...nft},{image:res})
-                //console.log(obj);
-                response.push(obj)
+                if(contract_adr?.toLowerCase() != nft?.token_address?.toLowerCase()){
+                    let res = await loadNftImage(nft);
+                    let  obj = Object.assign({},{...nft},{image:res})
+                    //console.log(obj);
+                    response.push(obj)
+                }
+
             }
             return response
         }
